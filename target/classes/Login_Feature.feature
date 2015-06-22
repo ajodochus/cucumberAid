@@ -9,6 +9,7 @@ Feature: User Story: Basic login
   # Title Login Page: "Login Page"
   # Title Home Page: "Home Page"
   # Test
+  # Git Test
   #
   @login
   Scenario: login with valid user jumps to the LoginPage
