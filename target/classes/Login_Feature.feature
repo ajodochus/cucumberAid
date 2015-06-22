@@ -8,16 +8,11 @@ Feature: User Story: Basic login
   # invalid password: invalidPassword, ..., and everything else
   # Title Login Page: "Login Page"
   # Title Home Page: "Home Page"
+  # Test
   #
-  #
+  @login
   Scenario: login with valid user jumps to the LoginPage
-    Given navigate to "Home Page"
-    And validate Page loaded "HomePage"
-    When login as user "validUser" and password "validUserPassword"
-    Then validate Page loaded "Login Page"
+    Given Landing Page is loaded
+    Then Link exists "Home"
 
-    Scenario: login with valid user jum
-    Given navigate to "Home Page"
-    And validate Page loaded "HomePage"
-    When login as user "validUser" and password "validUserPassword"
-    Then validate Page loaded "Login Page"
+
